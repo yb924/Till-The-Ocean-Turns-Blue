@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Till The Ocean Turns Blue</title>
 </head>
-<body style="background-image: url('image-resources/till-the-ocean.png');" onclick="scaleImg()">
+<body style="" onclick="scaleImg()">
 
   <div class="top-blue">
     <img src="image-resources/bg1.png" alt="" id="change1">
@@ -57,9 +57,10 @@ function scaleImg(){
 <style media="screen">
 body{
   margin:0px;
-  /* background-image:url('image-resources/ogk-bg-color.jpg'); */
+  background-image:url('image-resources/till-the-ocean.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
+  background-size: contain;
 }
 
 .top-blue{
@@ -96,6 +97,9 @@ body{
 
 #texts{
     width: 100vw;
+    position: absolute;
+    top: 0;
+    left:0;
 }
 
 
